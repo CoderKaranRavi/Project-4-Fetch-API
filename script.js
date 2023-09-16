@@ -47,7 +47,9 @@ res.then((data)=>data.json()).then((data1)=>{
                       <div class="card-body">
                 <h5 class="card-title"> ${data1[i].name}</h5>
                 <p class="card-text"><b><i>Email :  ${data1[i].email}</i></b></p>
-                <p class="card-text"><b><i>Phone :  ${data1[i].phone}</i></b></p>
+                <p class="card-text"><b><i>Street :  ${data1[i].address.street}</i></b></p>
+                <p class="card-text"><b><i>City :  ${data1[i].address.city}</i></b></p>
+
                 
 
               </div>
